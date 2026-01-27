@@ -1,0 +1,8 @@
+# Netlify redirects file
+# This ensures all routes work properly
+
+# Redirect www to non-www
+https://www.cityrewards.fun/* https://cityrewards.fun/:splat 301!
+
+# Handle any 404s by redirecting to index
+/*    /index.html   200

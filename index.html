@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CityRewards.app - Your Actions. Our Value. A Better City.</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Demo Banner -->
+    <div class="demo-banner">
+        <span>🚧 DEMO MODE: This is a prototype for demonstration purposes only.</span>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-city"></i>
+                <span>CityRewards.app</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#map" class="nav-link">Map</a></li>
+                <li><a href="#discover" class="nav-link">Discover</a></li>
+                <li><a href="#rewards" class="nav-link">Rewards</a></li>
+                <li><a href="#impact" class="nav-link">Impact</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="btn-secondary">Sign In</button>
+                <button class="btn-primary">Get Started</button>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section / Home Dashboard -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="highlight">Your Actions.</span><br>
+                    <span class="highlight">Our Value.</span><br>
+                    <span class="accent">A Better City.</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Turn everyday actions into collective value. Join thousands of citizens building a sustainable,
+                    regenerative local economy.
+                </p>
+                <div class="hero-actions">
+                    <button class="btn-primary btn-large">Start Contributing</button>
+                    <button class="btn-outline btn-large">Watch Demo</button>
+                </div>
+            </div>
+            <div class="hero-dashboard">
+                <div class="dashboard-card">
+                    <h3>My Rewards</h3>
+                    <div class="reward-stats">
+                        <div class="stat">
+                            <span class="stat-value">1,250</span>
+                            <span class="stat-label">Action Points</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-value">45</span>
+                            <span class="stat-label">CR - City Rewards</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="dashboard-card">
+                    <h3>My Impact</h3>
+                    <div class="impact-stats">
+                        <div class="impact-item">
+                            <i class="fas fa-tree"></i>
+                            <span>12 Trees Planted</span>
+                        </div>
+                        <div class="impact-item">
+                            <i class="fas fa-recycle"></i>
+                            <span>85kg Recycled</span>
+                        </div>
+                        <div class="impact-item">
+                            <i class="fas fa-mug-hot"></i>
+                            <span>2,034 Cups Saved from Landfill</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="dashboard-card">
+                    <h3>Suggested Actions</h3>
+                    <div class="action-suggestions">
+                        <div class="suggestion">
+                            <i class="fas fa-seedling"></i>
+                            <span>Plant a tree in Central Park</span>
+                            <span class="reward">+50 AP</span>
+                        </div>
+                        <div class="suggestion">
+                            <i class="fas fa-shopping-bag"></i>
+                            <span>Shop at Green Market</span>
+                            <span class="reward">+25 AP</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Impact & Transparency Section -->
+    <section id="impact" class="impact-section">
+        <div class="container">
+            <h2 class="section-title">Impact & Transparency</h2>
+            <p class="section-subtitle">See the collective impact of our community.</p>
+
+            <div class="impact-content">
+                <div class="impact-stats">
+                    <div class="impact-stat">
+                        <div class="stat-icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <div class="stat-content">
+                            <h3>2,450</h3>
+                            <p>Trees Planted</p>
+                        </div>
+                    </div>
+                    <div class="impact-stat">
+                        <div class="stat-icon">
+                            <i class="fas fa-recycle"></i>
+                        </div>
+                        <div class="stat-content">
+                            <h3>15.2 tons</h3>
+                            <p>Waste Recycled</p>
+                        </div>
+                    </div>
+                    <div class="impact-stat">
+                        <div class="stat-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="stat-content">
+                            <h3>3,250</h3>
+                            <p>Active Citizens</p>
+                        </div>
+                    </div>
+                    <div class="impact-stat">
+                        <div class="stat-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="stat-content">
+                            <h3>45%</h3>
+                            <p>CO2 Reduction</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="transparency-content">
+                    <div class="partners">
+                        <h3>Our Partners</h3>
+                        <div class="partners-grid">
+                            <div class="partner">
+                                <div class="partner-icon city-gov">
+                                    <i class="fas fa-landmark"></i>
+                                </div>
+                                <span>City Government</span>
+                            </div>
+                            <div class="partner">
+                                <div class="partner-icon ngo">
+                                    <i class="fas fa-globe-americas"></i>
+                                </div>
+                                <span>Green Earth NGO</span>
+                            </div>
+                            <div class="partner">
+                                <div class="partner-icon local-business">
+                                    <i class="fas fa-handshake"></i>
+                                </div>
+                                <span>Local Business Alliance</span>
+                            </div>
+                            <div class="partner">
+                                <div class="partner-icon tech-partner">
+                                    <i class="fas fa-cube"></i>
+                                </div>
+                                <span>Community Partners</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Citizens vs. Merchants Section -->
+    <section id="dual-value" class="dual-value-section">
+        <div class="container">
+            <h2 class="section-title">For Everyone</h2>
+            <p class="section-subtitle">A platform that creates value for both citizens and local businesses</p>
+
+            <div class="dual-value-content">
+                <div class="value-card citizens-card">
+                    <div class="value-header">
+                        <i class="fas fa-users"></i>
+                        <h3>For Citizens</h3>
+                    </div>
+                    <h4>Earn for doing good. Support local. Save money.</h4>
+                    <p>Complete actions like tree planting or recycling to earn City Points. Redeem points at local businesses for real discounts.</p>
+                    <ul class="value-bullets">
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            <div>
+                                <strong>Take Action:</strong> Help your community thrive
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            <div>
+                                <strong>Earn Points:</strong> Build your digital balance
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            <div>
+                                <strong>Get Rewards:</strong> Save at local shops
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="value-card merchants-card">
+                    <div class="value-header">
+                        <i class="fas fa-store"></i>
+                        <h3>For Merchants</h3>
+                    </div>
+                    <h4>Attract conscious customers. Build loyalty.</h4>
+                    <p>Accept City Points to drive foot traffic from active citizens. Simple setup, no complex technology.</p>
+                    <ul class="value-bullets">
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            <div>
+                                <strong>New Customers:</strong> Reach engaged citizens
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            <div>
+                                <strong>Boost Sales:</strong> Increase foot traffic
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            <div>
+                                <strong>Easy Setup:</strong> Start in minutes
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Map Section -->
+    <section id="map" class="map-section">
+        <div class="container">
+            <h2 class="section-title">Local Opportunities Map</h2>
+            <p class="section-subtitle">Discover action opportunities near you and see the impact being made across the city</p>
+            
+            <div class="map-filters">
+                <button class="filter-btn active" data-filter="all">All Actions</button>
+                <button class="filter-btn" data-filter="sustainability">Sustainability</button>
+                <button class="filter-btn" data-filter="volunteering">Volunteering</button>
+                <button class="filter-btn" data-filter="shopping">Local Shopping</button>
+                <button class="filter-btn" data-filter="repair">Repair Actions</button>
+            </div>
+
+            <div class="map-container">
+                <div class="map-placeholder">
+                    <i class="fas fa-map-marked-alt"></i>
+                    <h3>Interactive City Map</h3>
+                    <p>Click on markers to discover action opportunities</p>
+                    <div class="map-legend">
+                        <div class="legend-item">
+                            <div class="legend-color sustainability"></div>
+                            <span>Sustainability Actions</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-color volunteering"></div>
+                            <span>Volunteering</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-color shopping"></div>
+                            <span>Local Shopping</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-color repair"></div>
+                            <span>Repair Actions</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Discover Actions Section -->
+    <section id="discover" class="discover-section">
+        <div class="container">
+            <h2 class="section-title">Discover Actions</h2>
+            <p class="section-subtitle">Choose from hundreds of ways to contribute to your community</p>
+
+            <div class="discover-content">
+                <div class="action-filters">
+                    <h3>Filter by Category</h3>
+                    <div class="filter-grid">
+                        <button class="category-btn active" data-category="all">
+                            <i class="fas fa-th"></i>
+                            <span>All Actions</span>
+                        </button>
+                        <button class="category-btn" data-category="waste">
+                            <i class="fas fa-recycle"></i>
+                            <span>Waste Sorting</span>
+                        </button>
+                        <button class="category-btn" data-category="trees">
+                            <i class="fas fa-tree"></i>
+                            <span>Tree Planting</span>
+                        </button>
+                        <button class="category-btn" data-category="shopping">
+                            <i class="fas fa-shopping-bag"></i>
+                            <span>Local Shopping</span>
+                        </button>
+                        <button class="category-btn" data-category="community">
+                            <i class="fas fa-hands-helping"></i>
+                            <span>Community Care</span>
+                        </button>
+                        <button class="category-btn" data-category="repair">
+                            <i class="fas fa-tools"></i>
+                            <span>Repair Actions</span>
+                        </button>
+                        <button class="category-btn" data-category="energy">
+                            <i class="fas fa-bolt"></i>
+                            <span>Energy Saving</span>
+                        </button>
+                        <button class="category-btn" data-category="bike">
+                            <i class="fas fa-bicycle"></i>
+                            <span>Bike Rebalancing</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="actions-grid">
+                    <div class="action-card" data-category="trees">
+                        <div class="action-header">
+                            <i class="fas fa-tree"></i>
+                            <span class="action-reward">+50 AP</span>
+                        </div>
+                        <h3>Plant a Tree in Central Park</h3>
+                        <p>Join the community tree planting initiative to increase green spaces and improve air quality.</p>
+                        <div class="action-meta">
+                            <span class="location"><i class="fas fa-map-marker-alt"></i> Central Park</span>
+                            <span class="time"><i class="fas fa-clock"></i> 2 hours</span>
+                        </div>
+                        <button class="btn-primary">Participate</button>
+                    </div>
+
+                    <div class="action-card" data-category="waste">
+                        <div class="action-header">
+                            <i class="fas fa-recycle"></i>
+                            <span class="action-reward">+25 AP</span>
+                        </div>
+                        <h3>E-waste Collection Drive</h3>
+                        <p>Help collect electronic waste for proper recycling and environmental protection.</p>
+                        <div class="action-meta">
+                            <span class="location"><i class="fas fa-map-marker-alt"></i> City Hall</span>
+                            <span class="time"><i class="fas fa-clock"></i> 1 hour</span>
+                        </div>
+                        <button class="btn-primary">Participate</button>
+                    </div>
+
+                    <div class="action-card" data-category="shopping">
+                        <div class="action-header">
+                            <i class="fas fa-shopping-bag"></i>
+                            <span class="action-reward">+15 AP</span>
+                        </div>
+                        <h3>Shop at Green Market</h3>
+                        <p>Support local sustainable businesses and earn rewards for conscious consumption.</p>
+                        <div class="action-meta">
+                            <span class="location"><i class="fas fa-map-marker-alt"></i> Green Market</span>
+                            <span class="time"><i class="fas fa-clock"></i> 30 min</span>
+                        </div>
+                        <button class="btn-primary">Participate</button>
+                    </div>
+
+                    <div class="action-card" data-category="community">
+                        <div class="action-header">
+                            <i class="fas fa-hands-helping"></i>
+                            <span class="action-reward">+75 AP</span>
+                        </div>
+                        <h3>Community Cleanup</h3>
+                        <p>Join neighbors in cleaning up local parks and public spaces.</p>
+                        <div class="action-meta">
+                            <span class="location"><i class="fas fa-map-marker-alt"></i> Riverside Park</span>
+                            <span class="time"><i class="fas fa-clock"></i> 3 hours</span>
+                        </div>
+                        <button class="btn-primary">Participate</button>
+                    </div>
+
+                    <div class="action-card" data-category="repair">
+                        <div class="action-header">
+                            <i class="fas fa-tools"></i>
+                            <span class="action-reward">+40 AP</span>
+                        </div>
+                        <h3>Fix-it Workshop</h3>
+                        <p>Learn to repair household items and reduce waste through repair skills.</p>
+                        <div class="action-meta">
+                            <span class="location"><i class="fas fa-map-marker-alt"></i> Community Center</span>
+                            <span class="time"><i class="fas fa-clock"></i> 2 hours</span>
+                        </div>
+                        <button class="btn-primary">Participate</button>
+                    </div>
+
+                    <div class="action-card" data-category="energy">
+                        <div class="action-header">
+                            <i class="fas fa-bolt"></i>
+                            <span class="action-reward">+20 AP</span>
+                        </div>
+                        <h3>Energy Audit Workshop</h3>
+                        <p>Learn how to reduce energy consumption at home and save money.</p>
+                        <div class="action-meta">
+                            <span class="location"><i class="fas fa-map-marker-alt"></i> Online</span>
+                            <span class="time"><i class="fas fa-clock"></i> 1 hour</span>
+                        </div>
+                        <button class="btn-primary">Participate</button>
+                    </div>
+
+                    <div class="action-card" data-category="bike">
+                        <div class="action-header">
+                            <i class="fas fa-bicycle"></i>
+                            <span class="action-reward">+30 AP</span>
+                        </div>
+                        <h3>Bike Share Rebalancing</h3>
+                        <p>Help redistribute bikes from full stations to empty ones to keep the bike share system running smoothly.</p>
+                        <div class="action-meta">
+                            <span class="location"><i class="fas fa-map-marker-alt"></i> Downtown Stations</span>
+                            <span class="time"><i class="fas fa-clock"></i> 1.5 hours</span>
+                        </div>
+                        <button class="btn-primary">Participate</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rewards Section -->
+    <section id="rewards" class="rewards-section">
+        <div class="container">
+            <h2 class="section-title">Rewards & Tokens</h2>
+            <p class="section-subtitle">Earn Action Points and City Rewards for your contributions</p>
+
+            <div class="rewards-content">
+                <div class="token-explanation">
+                    <div class="token-card">
+                        <div class="token-icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>Action Points (AP)</h3>
+                        <p>Earned for every action you complete. These points track your individual contribution to the community.</p>
+                        <div class="token-features">
+                            <span>• Immediate rewards</span>
+                            <span>• Track your impact</span>
+                            <span>• Convert to CR tokens</span>
+                        </div>
+                    </div>
+                    <div class="token-card">
+                        <div class="token-icon">
+                            <i class="fas fa-coins"></i>
+                        </div>
+                        <h3>City Rewards (CR)</h3>
+                        <p>Digital currency that you can use at local businesses and for community services.</p>
+                        <div class="token-features">
+                            <span>• Spend at local businesses</span>
+                            <span>• Secure and reliable</span>
+                            <span>• Real economic value</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="marketplace-preview">
+                    <h3>Local Marketplace</h3>
+                    <p>Use your City Rewards at partner businesses</p>
+                    <div class="marketplace-grid">
+                        <div class="marketplace-item">
+                            <div class="marketplace-icon green-market">
+                                <i class="fas fa-leaf"></i>
+                            </div>
+                            <h4>Green Market</h4>
+                            <p>10% discount with CR</p>
+                        </div>
+                        <div class="marketplace-item">
+                            <div class="marketplace-icon coffee-shop">
+                                <i class="fas fa-coffee"></i>
+                            </div>
+                            <h4>Local Coffee</h4>
+                            <p>Free coffee with 5 CR</p>
+                        </div>
+                        <div class="marketplace-item">
+                            <div class="marketplace-icon repair-shop">
+                                <i class="fas fa-tools"></i>
+                            </div>
+                            <h4>Repair Shop</h4>
+                            <p>20% off repairs</p>
+                        </div>
+                        <div class="marketplace-item">
+                            <div class="marketplace-icon book-store">
+                                <i class="fas fa-book"></i>
+                            </div>
+                            <h4>Book Store</h4>
+                            <p>15% off books</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">About CityRewards.app</h2>
+            <p class="section-subtitle">Building the future of civic engagement and sustainable communities</p>
+
+            <div class="about-content">
+                <div class="mission-vision">
+                    <div class="mission">
+                        <h3>Our Mission</h3>
+                        <p>To create a platform where every citizen action contributes to building a more sustainable, 
+                        connected, and economically vibrant community. We believe that small actions, when multiplied 
+                        by thousands, can create massive positive change.</p>
+                    </div>
+                    <div class="vision">
+                        <h3>Our Vision</h3>
+                        <p>A world where cities are regenerative ecosystems where citizens actively participate in 
+                        their community's growth, sustainability, and prosperity through simple, rewarding actions 
+                        that benefit everyone.</p>
+                    </div>
+                </div>
+
+                <div class="how-it-works">
+                    <h3>How It Works</h3>
+                    <div class="steps">
+                        <div class="step">
+                            <div class="step-number">1</div>
+                            <div class="step-content">
+                                <h4>Discover</h4>
+                                <p>Browse available actions near you like bike redistribution, reusable places, and more.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">2</div>
+                            <div class="step-content">
+                                <h4>Act</h4>
+                                <p>Complete the action and scan the QR code to verify your participation.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">3</div>
+                            <div class="step-content">
+                                <h4>Earn</h4>
+                                <p>Instantly receive City Points in your digital wallet after verification.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">4</div>
+                            <div class="step-content">
+                                <h4>Redeem</h4>
+                                <p>Enjoy member-only pricing at partner businesses across the city.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-city"></i>
+                        <span>CityRewards.app</span>
+                    </div>
+                    <p>Your Actions. Our Value. A Better City.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-discord"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Platform</h4>
+                    <ul>
+                        <li><a href="#home">Dashboard</a></li>
+                        <li><a href="#map">Map</a></li>
+                        <li><a href="#discover">Actions</a></li>
+                        <li><a href="#rewards">Rewards</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Community</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#impact">Impact</a></li>
+                        <li><a href="#">Partners</a></li>
+                        <li><a href="#">Help Center</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <p>&copy; 2024 CityRewards.app. All rights reserved.</p>
+                    <div class="community-powered">
+                        <span>Community Powered</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Waitlist Modal -->
+    <div id="waitlistModal" class="modal-overlay">
+        <div class="modal-container">
+            <div class="modal-header">
+                <h3>Join Our Waitlist</h3>
+                <button class="modal-close" id="closeWaitlistModal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p class="modal-subtitle">Be the first to contribute in your city and help build a sustainable future!</p>
+                <div class="waitlist-redirect">
+                    <div class="redirect-content">
+                        <i class="fas fa-external-link-alt"></i>
+                        <h4>Join Our Waitlist</h4>
+                        <p>Click the button below to join our waitlist and be the first to know when CityRewards.app launches in your area!</p>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfhb0YDtBltHu-HXTDrNo2tNiHZ6dcIDwqoj2EFQifu9EPIOQ/viewform" target="_blank" class="btn-primary btn-large">
+                            <i class="fas fa-arrow-right"></i>
+                            Go to Waitlist Form
+                        </a>
+                        <button type="button" class="btn-outline modal-close">Maybe Later</button>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <p class="privacy-note">
+                        <i class="fas fa-shield-alt"></i>
+                        We respect your privacy. No spam, just updates about CityRewards.app in your area.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

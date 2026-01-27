@@ -1,0 +1,14 @@
+{
+  "name": "cityrewards-app",
+  "version": "1.0.0",
+  "description": "CityRewards.app - Your Actions. Our Value. A Better City.",
+  "main": "index.html",
+  "scripts": {
+    "dev": "python3 -m http.server 8080",
+    "start": "python3 -m http.server 8080",
+    "build": "echo 'Static site - no build needed'"
+  },
+  "keywords": ["civic", "community", "rewards"],
+  "author": "",
+  "license": "ISC"
+}
